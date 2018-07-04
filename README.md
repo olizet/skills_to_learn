@@ -4,9 +4,10 @@ Skillt_to_learn is a Restful Spring application. Project is about managing tasks
 ## Getting started
 1. First, you have to import project to your IDE.
 2. Next, you have to set up server. I used local Tomcat.
-3. Now, connection to mySQL database
-You have to open file "/src/main/resources/META-INF/persistence.xml".
-Then set up your name of database, user, password in:
+3. Now, connection to mySQL database:
+- set up a new database in your mySQL.
+- open file "/src/main/resources/META-INF/persistence.xml".
+Then set up your name of database, user, password in code:
 ```
 <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/skills_to_learn" />
 <property name="javax.persistence.jdbc.user" value="user" />
