@@ -14,15 +14,6 @@ public class Skill {
     private Long id;
     private String name;
     private String description;
-    private Date created = new Date();
-
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
 
     public Long getId() {
         return id;

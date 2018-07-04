@@ -7,4 +7,5 @@ import pl.app.entity.Skill;
 import java.util.List;
 
 public interface SkillsRepository extends JpaRepository<Skill,Long> {
+   Skill findSkillById(Long id);
 }
